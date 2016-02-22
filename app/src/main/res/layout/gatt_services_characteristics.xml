@@ -67,7 +67,7 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="加速度" />
+        android:text="CO浓度" />
     
     <Button
         android:id="@+id/button4"
@@ -78,7 +78,7 @@
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="磁力计" />
+        android:text="甲烷浓度" />
 	</LinearLayout>
 	<LinearLayout
 	    android:layout_width="match_parent"
@@ -88,62 +88,66 @@
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="陀螺仪" />
+        android:text="烟雾浓度" />
     <Button
         android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="气压校正" />
+        android:text="甲醛浓度" />
     <Button
         android:id="@+id/button8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="气压显示" />
+    <Button
+        android:id="@+id/pmv_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pmv值" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_margin="5dp"
         android:orientation="vertical" >
-        <TextView android:id="@+id/textView1" android:layout_width="297dp" android:layout_height="156dp" android:text="2345" android:textAppearance="?android:attr/textAppearanceLarge"/>
-    <Space
-            android:layout_width="5dp"
-            android:layout_height="wrap_content" />
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="297dp"
-        android:layout_height="156dp"
-        android:text="4567"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView android:id="@+id/textView1" android:layout_width="297dp" android:layout_height="50dp" android:text="2345" android:textAppearance="?android:attr/textAppearanceLarge"/>
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="297dp"
-        android:layout_height="156dp"
-        android:text="acc"
+        android:layout_height="50dp"
+        android:text="CO浓度:6.38mg/m3"
+        android:textColor="#FFA500"
         android:textAppearance="?android:attr/textAppearanceLarge" />
     
     <TextView
         android:id="@+id/textView4"
         android:layout_width="297dp"
-        android:layout_height="156dp"
+        android:layout_height="50dp"
         android:text="shidu"
         android:textAppearance="?android:attr/textAppearanceLarge" />
      <TextView
         android:id="@+id/textView5"
         android:layout_width="297dp"
-        android:layout_height="156dp"
-        android:text="mag"
+        android:layout_height="50dp"
+        android:text="甲烷浓度:6.39ppm"
         android:textAppearance="?android:attr/textAppearanceLarge" />
        <TextView
         android:id="@+id/textView6"
         android:layout_width="297dp"
-        android:layout_height="156dp"
-        android:text="gyr"
+        android:layout_height="50dp"
+        android:text="烟雾浓度:23.165ppm"
         android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="297dp"
+            android:layout_height="50dp"
+            android:text="甲醛浓度:0.048mg/m3"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
        <TextView
         android:id="@+id/textView7"
         android:layout_width="297dp"
-        android:layout_height="156dp"
+        android:layout_height="50dp"
         android:text="bar"
         android:textAppearance="?android:attr/textAppearanceLarge" />
      </LinearLayout>
